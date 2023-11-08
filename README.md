@@ -26,6 +26,7 @@
 ![Скриншот-1](https://github.com/VVEREW01F/homework-index/blob/main/img/scr1.PNG)
 ### Задание 2
 ![Скриншот-1](https://github.com/VVEREW01F/homework-index/blob/main/img/scr2.PNG)
+![Скриншот-1](https://github.com/VVEREW01F/homework-index/blob/main/img/scr3.PNG)
 
 
 
