@@ -43,10 +43,9 @@
 
     Резервирование (pg_dump):
 
-    bash
-
-pg_dump -U username -h localhost -d dbname > backup.sql
-
+    ```sql
+    pg_dump -U username -h localhost -d dbname > backup.sql
+    ```
 Восстановление (pg_restore):
 
 bash
@@ -63,10 +62,9 @@ bash
 
     Инкрементное резервное копирование с использованием mysqldump:
 
-    bash
-
+    ```sql
     mysqldump -u username -p --single-transaction --flush-logs --master-data=2 dbname > backup.sql
-
+    ```
     Эта команда создаст инкрементный бэкап, который можно использовать для восстановления данных.
 
 3.1.* Преимущество репликации по сравнению с обычным резервным копированием:
