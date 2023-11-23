@@ -43,13 +43,11 @@
 
     Резервирование (pg_dump):
 
-    bash
 
 pg_dump -U username -h localhost -d dbname > backup.sql
 
 Восстановление (pg_restore):
 
-bash
 
     pg_restore -U username -h localhost -d dbname < backup.sql
 
@@ -63,7 +61,6 @@ bash
 
     Инкрементное резервное копирование с использованием mysqldump:
 
-    bash
 
     mysqldump -u username -p --single-transaction --flush-logs --master-data=2 dbname > backup.sql
 
